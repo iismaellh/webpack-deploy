@@ -5,6 +5,8 @@ import PizzaImage from '../../assets/pizza.jpg';
 
 const pizzaImage = (props) => (
     <div className={classes.PizzaImage}>
-        <img src={PizzaImage} className={PizzaImg} />
+        <img src={PizzaImage} className={classes.PizzaImg} />
     </div>
-)
+);
+
+export default pizzaImage;

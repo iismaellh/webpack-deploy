@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
-import { PizzaImage } from "../components/Pizzaimage/Pizzaimage";
+import PizzaImage from '../components/PizzaImage/PizzaImage';
 
 class Pizza extends Component {
-    state = {  }
-    render() {
+    render () {
         return (
             <div>
                 <h1>The Pizza</h1>
